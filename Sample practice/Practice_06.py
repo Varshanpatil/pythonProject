@@ -1,0 +1,1 @@
+#Write a Python program to count Uppercase, Lowercase, special character, numeric values in a given string
