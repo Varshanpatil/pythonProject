@@ -14,3 +14,4 @@ string_3 = ["machine learning "]
 print(string_3[0].count("learning"))
 
 
+

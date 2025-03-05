@@ -1,11 +1,9 @@
 #Write a program to find last 10 characters of a string?
 
-def get_last_10_characters(string):
-    # Return the last 10 characters using slicing
-    return string[-10:]
+# Get input from the user
+string = input("Enter a string: ")
 
-# Example usage
-input_string = "This is an example string to demonstrate the program."
-result = get_last_10_characters(input_string)
-print("Original string:", input_string)
-print("Last 10 characters:", result)
+# Get the last 10 characters using slicing
+last_10_chars = string[-10:]
+
+print("Last 10 characters:", last_10_chars)
